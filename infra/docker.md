@@ -50,3 +50,9 @@ $ docker network ls
 
 $ docker network create application-tier --driver bridge
 ```
+
+## `$ docker exec`
+
+```shell
+$ docker exec -i -t my-nginx bash
+```
